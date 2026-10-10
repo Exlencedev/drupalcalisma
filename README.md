@@ -8,9 +8,11 @@ git clone https://github.com/Exlencedev/drupalcalisma.git
 cd drupalcalisma
 ddev start
 ddev composer install
+echo "\$settings['config_sync_directory'] = '../config/sync';" >> web/sites/default/settings.php
 ddev drush site:install --existing-config --account-name=admin --account-pass=admin -y
+ddev launch
 ```
-(Bu komut `config/sync` içindeki yapılandırmayı yükler. Çalışmazsa: `ddev drush site:install -y`, sonra `ddev drush config:import --source=../config/sync -y`.)
+Not: Haber içerikleri değil, yapılandırma (diller, içerik türü, view, menü) yüklenir.
 
 ## Yapılanlar
 - [x] Drupal 11 + DDEV kurulumu
