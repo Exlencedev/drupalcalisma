@@ -1,0 +1,22 @@
+uuid: 56a72069-bf8b-404f-b8fd-178dea56e97d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_govde
+    - node.type.haber
+  module:
+    - text
+id: node.haber.field_govde
+field_name: field_govde
+entity_type: node
+bundle: haber
+label: Gövde
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

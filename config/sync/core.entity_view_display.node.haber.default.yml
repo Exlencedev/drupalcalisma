@@ -1,0 +1,29 @@
+uuid: 4d28743a-83b0-4ff1-8ea8-741b2267023b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.haber.field_govde
+    - node.type.haber
+  module:
+    - text
+    - user
+id: node.haber.default
+targetEntityType: node
+bundle: haber
+mode: default
+content:
+  field_govde:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
