@@ -16,6 +16,6 @@ ddev drush site:install --existing-config --account-name=admin --account-pass=ad
 - [x] Drupal 11 + DDEV kurulumu
 - [x] Çoklu dil: Türkçe ve İngilizce, URL öneki (`/en`, `/tr`), dil değiştirici bloğu
 - [x] `Haber` içerik türü, İngilizce/Türkçe çeviri
-- [ ] Menü ve taksonomi çevirisi
-- [ ] Özel modül
-- [ ] Views
+- [x] Menü ve taksonomi çevirisi
+- [x] Özel modül
+- [x] Views
