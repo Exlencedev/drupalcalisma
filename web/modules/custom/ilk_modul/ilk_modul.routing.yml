@@ -1,0 +1,7 @@
+ilk_modul.merhaba:
+  path: '/merhaba'
+  defaults:
+    _controller: '\Drupal\ilk_modul\Controller\IlkController::merhaba'
+    _title: 'Hello'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,5 @@
+name: İlk Modül
+type: module
+description: Drupal 11 ile yazdığım ilk özel modül.
+package: Custom
+core_version_requirement: ^11
