@@ -2,6 +2,8 @@
 
 Drupal 11 ile çoklu dil (Türkçe / İngilizce) çalışması. Drupal 6'da yaptıklarımı yeni Drupal'de yeniden deniyorum.
 
+Gün gün çalışma notları için: [GUNLUK.md](GUNLUK.md)
+
 ## Kurulum
 ```bash
 git clone https://github.com/Exlencedev/drupalcalisma.git
